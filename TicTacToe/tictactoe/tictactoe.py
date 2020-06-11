@@ -126,7 +126,7 @@ while True:
     column_3 = [position[0][2], position[1][2], position[2][2]]
     # Diagonals
     diagonal_1 = [position[0][0], position[1][1], position[2][2]]
-    diagonal_2 = [position[2][0], position[2][1], position[0][2]]
+    diagonal_2 = [position[2][0], position[1][1], position[0][2]]
     if abs(num_x - num_o) < 2:
         if impossible():
             print('Impossible')
